@@ -46,20 +46,13 @@ export function AboutSection() {
             <div className="grid grid-cols-2 gap-4">
               {/* Enfoque Personalizado */}
               <Card 
-                className="group relative cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-xl bg-gradient-to-br from-white to-gray-50 border border-gray-200 hover:border-primary/40 rounded-xl overflow-hidden animate-pulse-gentle"
+                className="group relative cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-xl bg-gradient-to-br from-white to-gray-50 border border-gray-200 hover:border-primary/40 rounded-xl overflow-hidden"
                 onClick={() => handleCardClick('Enfoque Personalizado', 'Descubre cómo adaptamos nuestras soluciones a cada sector e industria')}
               >
-                {/* Aesthetic hand cursor indicator - always visible */}
-                <div className="absolute top-2 right-2 z-10 animate-bounce">
-                  <div className="relative">
-                    {/* Glow effect */}
-                    <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary to-teal-400 rounded-full blur-sm opacity-75"></div>
-                    {/* Main hand icon */}
-                    <div className="relative w-6 h-6 bg-gradient-to-br from-primary via-primary to-teal-400 text-white rounded-full flex items-center justify-center text-sm font-bold shadow-lg border-2 border-white">
-                      👆
-                    </div>
-                    {/* Subtle ring animation */}
-                    <div className="absolute inset-0 border-2 border-primary/30 rounded-full animate-ping"></div>
+                {/* Click indicator */}
+                <div className="absolute top-2 right-2 z-10 opacity-70 group-hover:opacity-100 transition-opacity duration-300">
+                  <div className="w-6 h-6 bg-gradient-to-br from-primary to-teal-400 text-white rounded-full flex items-center justify-center text-sm font-bold shadow-lg border-2 border-white">
+                    👆
                   </div>
                 </div>
                 
@@ -83,17 +76,13 @@ export function AboutSection() {
 
               {/* Amplia Experiencia */}
               <Card 
-                className="group relative cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-xl bg-gradient-to-br from-white to-gray-50 border border-gray-200 hover:border-primary/40 rounded-xl overflow-hidden animate-pulse-gentle"
+                className="group relative cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-xl bg-gradient-to-br from-white to-gray-50 border border-gray-200 hover:border-primary/40 rounded-xl overflow-hidden"
                 onClick={() => handleCardClick('Amplia Experiencia', 'Conoce nuestra trayectoria trabajando con clientes de todos los sectores')}
               >
-                {/* Aesthetic hand cursor indicator */}
-                <div className="absolute top-2 right-2 z-10 animate-bounce" style={{ animationDelay: '0.2s' }}>
-                  <div className="relative">
-                    <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary to-teal-400 rounded-full blur-sm opacity-75"></div>
-                    <div className="relative w-6 h-6 bg-gradient-to-br from-primary via-primary to-teal-400 text-white rounded-full flex items-center justify-center text-sm font-bold shadow-lg border-2 border-white">
-                      👆
-                    </div>
-                    <div className="absolute inset-0 border-2 border-primary/30 rounded-full animate-ping"></div>
+                {/* Click indicator */}
+                <div className="absolute top-2 right-2 z-10 opacity-70 group-hover:opacity-100 transition-opacity duration-300">
+                  <div className="w-6 h-6 bg-gradient-to-br from-primary to-teal-400 text-white rounded-full flex items-center justify-center text-sm font-bold shadow-lg border-2 border-white">
+                    👆
                   </div>
                 </div>
                 
@@ -117,17 +106,13 @@ export function AboutSection() {
 
               {/* Resultados Medibles */}
               <Card 
-                className="group relative cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-xl bg-gradient-to-br from-white to-gray-50 border border-gray-200 hover:border-primary/40 rounded-xl overflow-hidden animate-pulse-gentle"
+                className="group relative cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-xl bg-gradient-to-br from-white to-gray-50 border border-gray-200 hover:border-primary/40 rounded-xl overflow-hidden"
                 onClick={() => handleCardClick('Resultados Medibles', 'Ve ejemplos del impacto tangible en rentabilidad y eficiencia de nuestros clientes')}
               >
-                {/* Aesthetic hand cursor indicator */}
-                <div className="absolute top-2 right-2 z-10 animate-bounce" style={{ animationDelay: '0.4s' }}>
-                  <div className="relative">
-                    <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary to-teal-400 rounded-full blur-sm opacity-75"></div>
-                    <div className="relative w-6 h-6 bg-gradient-to-br from-primary via-primary to-teal-400 text-white rounded-full flex items-center justify-center text-sm font-bold shadow-lg border-2 border-white">
-                      👆
-                    </div>
-                    <div className="absolute inset-0 border-2 border-primary/30 rounded-full animate-ping"></div>
+                {/* Click indicator */}
+                <div className="absolute top-2 right-2 z-10 opacity-70 group-hover:opacity-100 transition-opacity duration-300">
+                  <div className="w-6 h-6 bg-gradient-to-br from-primary to-teal-400 text-white rounded-full flex items-center justify-center text-sm font-bold shadow-lg border-2 border-white">
+                    👆
                   </div>
                 </div>
                 
@@ -151,17 +136,13 @@ export function AboutSection() {
 
               {/* Tecnología Avanzada */}
               <Card 
-                className="group relative cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-xl bg-gradient-to-br from-white to-gray-50 border border-gray-200 hover:border-primary/40 rounded-xl overflow-hidden animate-pulse-gentle"
+                className="group relative cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-xl bg-gradient-to-br from-white to-gray-50 border border-gray-200 hover:border-primary/40 rounded-xl overflow-hidden"
                 onClick={() => handleCardClick('Tecnología Avanzada', 'Explora nuestras capacidades en IA y automatización de última generación')}
               >
-                {/* Aesthetic hand cursor indicator */}
-                <div className="absolute top-2 right-2 z-10 animate-bounce" style={{ animationDelay: '0.6s' }}>
-                  <div className="relative">
-                    <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary to-teal-400 rounded-full blur-sm opacity-75"></div>
-                    <div className="relative w-6 h-6 bg-gradient-to-br from-primary via-primary to-teal-400 text-white rounded-full flex items-center justify-center text-sm font-bold shadow-lg border-2 border-white">
-                      👆
-                    </div>
-                    <div className="absolute inset-0 border-2 border-primary/30 rounded-full animate-ping"></div>
+                {/* Click indicator */}
+                <div className="absolute top-2 right-2 z-10 opacity-70 group-hover:opacity-100 transition-opacity duration-300">
+                  <div className="w-6 h-6 bg-gradient-to-br from-primary to-teal-400 text-white rounded-full flex items-center justify-center text-sm font-bold shadow-lg border-2 border-white">
+                    👆
                   </div>
                 </div>
                 
